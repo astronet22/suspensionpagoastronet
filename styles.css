@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 30%;
+    max-height: 30%;
+    margin-top: -30px;
+    margin-bottom: -30px;
+	object-fit: cover;
+}
+
+main {
+    max-width: 45%;
+    margin: 20px auto;
+    padding: 2%;
+    background-color: #d5cfca ;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main h2{
+	color: #000;
+}
+
+.aviso img{
+	width: 85%;
+	margin-right: 10%;
+}
+
+.aviso, .consejos {
+    margin-bottom: 20px;
+}
+
+.aviso h2, .consejos h2 {
+    color: #333;
+}
+
+.aviso p, .consejos p {
+    margin-bottom: 10px;
+}
+
+.aviso ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+    padding: 10px;
+}
